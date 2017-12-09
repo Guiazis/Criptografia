@@ -1,0 +1,115 @@
+
+.content{
+
+}
+.header{
+  position: relative;
+  height: 675px;
+  display: flex;
+}
+.header-logo{
+  position: fixed;
+  top: 230px;
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+}
+.logo-img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+.header-nav{
+  position: absolute;
+  top: 0;
+  padding: 10px;
+}
+.nav-item{
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 50px;
+  transition: .3s;
+}
+.icon-arrow{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 20px;
+  z-index: 0;
+}
+.icon-arrow a{
+  text-decoration: none;
+}
+.arrow-down{
+  display: block;
+  font-size: 40px;
+  width: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* MAIN */
+.main{
+  background-color: #fff;
+  z-index: 999;
+}
+
+/* MAIN 2 */
+.main-title{
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.developers{
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+.photo-developer{
+  display: block;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+}
+.first-developer{
+  border-right: 2px solid #ddd;
+}
+.name-developer{
+  text-align: center;
+  font-size: 35px;
+  margin: 80px 0;
+}
+.description-developer{
+  text-align: center;
+  width: 450px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+.socialList-developer{
+  display: block;
+  width: 405px;
+  margin: 0 auto;
+}
+.socialItem{
+  display: inline-block;
+  margin: 0 auto;
+}
+.social{
+  width: 45px;
+  padding: 40px;
+  margin: 0 auto;
+  opacity: 0.5;
+}
+.map{
+  clear: both;
+  height: 600px;
+  width: 100%;
+}
+
+/* MAIN 3 */

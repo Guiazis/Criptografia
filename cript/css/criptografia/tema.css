@@ -1,0 +1,101 @@
+@keyframes arrow {
+  0%{transform: translateY(0px);}
+  10%{transform: translateY(10px);}
+  20%{transform: translateY(-10px);}
+  30%{transform: translateY(10px);}
+  40%{transform: translateY(-10px);}
+  50%{transform: translateY(10px);}
+  60%{transform: translateY(0px);}
+  100%{transform: translateY(0px);}
+}
+body{
+  background-image: url('../../midia/img2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* HEADER */
+
+a{text-decoration: none; color: #555}
+.header{
+  height: 100vh;
+}
+.header-nav{
+  background-color: transparent;
+}
+.nav-item{
+  color: #888;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+.nav-item:hover:not(.currentPage){
+  color: #eee;
+}
+.currentPage{
+  color: #eee;
+  border-bottom: 1px #eee solid;
+}
+.currentPage:hover{
+  cursor: default;
+}
+.arrow-down{
+  text-shadow: 0 0 25px #000;
+  color: #2486a1;
+  animation: arrow 3s infinite;
+}
+
+/* MAIN */
+
+.main{
+  background-color: #fff;
+}
+.main-title{
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.dados{
+  margin-top: 30px;
+}
+#box{
+  outline: none;
+  border: 2px solid #ccc;
+}
+#pass{
+  outline: none;
+  border: 2px solid #ccc;
+}
+.result{
+  border: 2px solid #ccc;
+}
+.msg{
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+}
+.button{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background-color: #fff;
+  transition: .3s;
+}
+.button:hover{
+  box-shadow: inset 0 75px 0 #2486a1;
+  color: #fff;
+}
+.decriptografar{
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  background-color: #fff;
+  border-top: 2px solid #ddd;
+  border-left: 2px solid #ddd;
+  transition: .2s;
+}
+.decriptografar a{
+  border: 1px solid transparent;
+}
+.decriptografar a:hover{
+  color: #2486a1;
+  border-bottom: 1px solid #2486a1;
+}

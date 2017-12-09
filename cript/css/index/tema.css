@@ -1,0 +1,68 @@
+@keyframes arrow {
+  0%{transform: translateY(0px);}
+  10%{transform: translateY(10px);}
+  20%{transform: translateY(-10px);}
+  30%{transform: translateY(10px);}
+  40%{transform: translateY(-10px);}
+  50%{transform: translateY(10px);}
+  60%{transform: translateY(0px);}
+  100%{transform: translateY(0px);}
+}
+body{
+  background-image: url('../../midia/img4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* HEADER */
+
+a{text-decoration: none; color: #555}
+.header{
+  height: 100vh;
+}
+.header-nav{
+  background-color: transparent;
+}
+.nav-item{
+  color: #888;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+.nav-item:hover:not(.currentPage){
+  color: #eee;
+}
+.currentPage{
+  color: #eee;
+  border-bottom: 1px #eee solid;
+}
+.currentPage:hover{
+  cursor: default;
+}
+.arrow-down{
+  text-shadow: 0 0 25px #000;
+  color: #cebf41;
+  animation: arrow 3s infinite;
+}
+
+/* MAIN */
+
+.photo-developer{
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+.first-developer div{
+  background-image: url('../../midia/firstDeveloper.jpeg');
+}
+.second-developer div{
+  background-image: url('../../midia/secondDeveloper.png');
+}
+.social{
+  transition: .2s;
+}
+.social:hover{
+  opacity: 1;
+  transform: scale(1.25);
+  cursor: pointer;
+}

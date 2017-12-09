@@ -1,0 +1,41 @@
+-------> DEVELOPERS) Vinícius Siqueira & Guilherme Azis;
+
+
+-> O trabalho foi feito em PHP, então precisa está na pasta do servidor local para rodar;
+
+-> O trabalho foi dividido em dois formulário, um para criptografar(1) e outro para decriptografar(2).
+
+-> A senha foi definida para ser de 8 caracteres e apenas caracteres do alfabeto.
+
+
+
+-------> 1) No formulário para criptografar, vai escrever um texto de ate 256 caracteres e vai passar por 4 etapas para criptografar,
+
+
+
+    - 1ª etapa: passa na cifra de Vigènere;
+
+    - 2ª etapa: faz uma rotação de -2 caracteres;
+
+    - 3ª etapa: faz uma rotação de 7 caracteres;
+
+    OBS: Nessa ultima etapa quando passa pela cifra de Vigénere, a senha usada não é a senha inserida pelo usuário, mas uma frase definida
+
+    - 4ª etapa: passa mais uma vez na cifra de Vigénere e exibe o texto criptografado.
+
+
+
+-------> 2) No formulário para decriptografar, vai escrever o texto (também de, no máximo, 256 caracteres) do formulário de criptografia, nisso vai fazer o processo inverso,
+vai rodar também em 4 etapas,
+
+
+
+    OBS: Nessa etapa usa a frase definida, no lugar da senha
+
+    - 1ª etapa: passa na cifra de Vigènere;
+
+    - 2ª etapa: faz uma rotação de -7 caracteres;
+
+    - 3ª etapa: faz uma rotação de 2 caracteres;
+
+    - 4ª etapa: passa mais uma vez na cifra de vigènere e exibe o texto decriptografado.
